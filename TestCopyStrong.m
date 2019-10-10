@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 
-//运行文件夹中的TestCopyStrong查看调试结果
 
 @interface TestClass : NSObject
 
