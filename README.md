@@ -13,7 +13,7 @@
 1. 被copy修饰的变量，指向可变地址时，进行深拷贝，指向不可变地址时，进行浅拷贝。
 2. 对于不可变变量(NSString, NSArray...)，使用copy修饰可以确保其值不会因为指向对象的值发生改变(追加)而改变。
 3. 对于可变变量(NSMutableString, NSMutableArray...), 使用copy修饰会导致其不可变(不能追加,但可以重新赋值)。
-4. [test code] (/TestCopyStrong.m)
+4. [test code](/TestCopyStrong.m) 
 * strong, weak
    被weak修饰的变量会被添加到weak表中，其所指对象引用计数不会增加。对象被释放后，变量会被置为nil。
    被strong修饰的变量会使其指向的对象引用计数加1。
@@ -23,7 +23,7 @@
 3. 对于可变变量(NSMutable__), copy 和 mutableCopy都是深拷贝
 4. 对于不可变变量(NS__), copy 是浅拷贝，mutableCopy是深拷贝
 5. 可变变量指向不可变变量时，如果使用copy或直接赋值，则可变变量地址不可变(无法追加, 强行追加会crash)
-6. [test code] (/TestCopy.m)
+6. [test code](/TestCopy.m) 
 -----------
 
 ## 底层
