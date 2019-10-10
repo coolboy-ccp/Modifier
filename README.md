@@ -206,5 +206,6 @@ object_copy(id oldObj, size_t extraBytes)
 }
 
 ```
+## [isTaggedPointer](https://blog.csdn.net/Nathan1987_/article/details/78388581)
 
 
