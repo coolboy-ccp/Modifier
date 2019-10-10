@@ -9,7 +9,7 @@
    weak是ARC中用于修饰引用类型变量，被weak修饰的变量，其指向的对象引用计数不会加1。当其指向的对象被释放后，变量会置为nil。
    assign用于修饰值类型。
    使用assign修饰引用类型，当其指向的对象被释放后，变量不会置为nil，会出现野指针风险。
-* [copy, strong](/copyStrong.m)
+* [copy, strong](/TestCopyStrong)
    被copy修饰的变量，指向可变地址时，进行深拷贝，指向不可变地址时，进行浅拷贝。
    对于不可变变量(NSString, NSArray...)，使用copy修饰可以确保其值不会因为指向对象的值发生改变(追加)而改变。
    对于可变变量(NSMutableString, NSMutableArray...), 使用copy修饰会导致其不可变(不能追加,但可以重新赋值)。
