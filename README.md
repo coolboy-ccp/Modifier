@@ -1,2 +1,17 @@
 # Modifier
-ios变量修饰符的区别和底层实现
+
+## 对比 
+-------------------
+
+### copy, strong, assign, weak
+
+* weak, assign
+* copy, strong
+| Type | copy | strong | result |
+| : --:   | : --:   | :--: | :--: |
+| NSStrin | 
+   
+   
+* strong, weak
+
+-----------
