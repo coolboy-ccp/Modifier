@@ -22,7 +22,7 @@
 
 ## 底层
 ### SideTables,
-* 关系图 ![pic](/SideTables)
+* 关系图 ![pic](/SideTables.png)
 * SideTables
 ```
 static StripedMap<SideTable>& SideTables() {
